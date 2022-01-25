@@ -1,0 +1,22 @@
+.about {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+
+  &__image {
+    display: inline-block;
+    text-align: center;
+    width: 1008px;
+    height: 474px;
+    background: no-repeat url("../../img/about/image.png") center/1008px 474px;
+    position: relative;
+    top: -24px;
+  }
+
+  &__description {
+    display: inline-block;
+    text-align: center;
+    width: 594px;
+    height: 72px;
+  }
+}
