@@ -1,5 +1,5 @@
 .header {
-  background-color: red;
+  background-color: #121212;
   color: #bdbdbd;
   display: block;
   width: 100%;
@@ -62,12 +62,6 @@
   width: 20%;
   display: inline-block;
   padding-left: 2px;
-}
-.header__logo {
-  background: no-repeat url("../../img/logo/Logo 1200.svg") center/110px 14px;
-  width: 10%;
-  height: 14px;
-  display: inline-block;
 }
 .header__feedback {
   width: 30%;
