@@ -1,3 +1,14 @@
+.halls__heading .section__heading {
+  width: 72%;
+  margin-left: 96px;
+  margin-top: 96px;
+  font-family: "Merriweather", serif;
+  width: 100%;
+  display: inline-block;
+  font-size: 40px;
+  line-height: 52px;
+  color: #121212;
+}
 .halls__item {
   display: inline-block;
 }

@@ -208,6 +208,11 @@ input::-webkit-inner-spin-button {
   font-weight: 400;
   src: url("../../fonts/GothamPro-regular.woff") format("woff");
 }
+.section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .section__heading {
   display: inline-block;
 }
@@ -320,7 +325,6 @@ input::-webkit-inner-spin-button {
 }
 
 .about {
-  display: inline-block;
   width: 100%;
   text-align: center;
 }
@@ -336,10 +340,27 @@ input::-webkit-inner-spin-button {
 .about__description {
   display: inline-block;
   text-align: center;
-  width: 594px;
+  width: 596px;
   height: 72px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4F4F4F;
+  margin: 2px;
 }
 
+.halls {
+  padding: 0 0 0 96px;
+}
+.halls__heading .section__heading {
+  width: 72%;
+  margin-top: 96px;
+  font-family: "Merriweather", serif;
+  width: 100%;
+  display: inline-block;
+  font-size: 40px;
+  line-height: 52px;
+  color: #121212;
+}
 .halls__item {
   display: inline-block;
 }
