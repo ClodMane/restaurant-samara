@@ -349,19 +349,65 @@ input::-webkit-inner-spin-button {
 }
 
 .halls {
-  padding: 0 0 0 96px;
+  padding: 0 0 50px 96px;
+}
+.halls__heading {
+  position: relative;
 }
 .halls__heading .section__heading {
-  width: 72%;
+  width: 76.5%;
   margin-top: 96px;
   font-family: "Merriweather", serif;
-  width: 100%;
   display: inline-block;
   font-size: 40px;
   line-height: 52px;
   color: #121212;
 }
+.halls__items {
+  margin-top: 43px;
+  width: 100%;
+  max-width: 1043px;
+}
 .halls__item {
+  width: 33%;
+}
+.halls__show-button {
+  border: 1px solid #E0E0E0;
+  width: 159px;
+  height: 52px;
+  background: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  top: 59%;
+  right: 8.5%;
+}
+.halls__item {
+  display: inline-block;
+}
+.halls .card__head {
+  font-size: 16px;
+  line-height: 24px;
+}
+.halls .card__text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #4F4F4F;
+}
+.halls .card__body-button {
+  width: 312px;
+  height: 54px;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.halls .capacity {
+  display: inline-block;
+  width: 68%;
+}
+.halls .area {
   display: inline-block;
 }
 

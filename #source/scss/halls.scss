@@ -1,12 +1,12 @@
 .halls {
-    padding: 0 0 0 96px;
+    padding: 0 0 50px 96px;
 
     &__heading {
+        position: relative;
         .section__heading {
-            width: 72%;
+            width: 76.5%;
             margin-top: 96px;
             font-family: "Merriweather", serif;
-            width: 100%;
             display: inline-block;
             font-size: 40px;
             line-height: 52px;
@@ -14,7 +14,59 @@
     }
     }
 
+    &__items {
+        margin-top: 43px;
+        width: 100%;
+        max-width: 1043px;
+    }
+
+    &__item {
+        width: 33%;
+    }
+
+    &__show-button {
+        border: 1px solid #E0E0E0;
+        width: 159px;
+        height: 52px;
+        background: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        position: absolute;
+        top: 59%;
+        right: 8.5%;
+
+    }
+
     &__item {
         display: inline-block;
     }
+    .card__head {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .card__text {
+        font-size: 14px;
+        line-height: 20px;
+        color: #4F4F4F;
+    }
+    
+    .card__body-button {
+        width: 312px;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+
+    }
+    .capacity {
+        display: inline-block;
+        width: 68%;
+    }
+    .area {
+        display: inline-block;
+    }
+        
 }
