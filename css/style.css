@@ -213,6 +213,11 @@ input::-webkit-inner-spin-button {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  .section {
+    max-width: 768px;
+  }
+}
 .section__heading {
   display: inline-block;
 }
@@ -224,6 +229,11 @@ input::-webkit-inner-spin-button {
   width: 100%;
   text-align: center;
   height: 239px;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    height: 162px;
+  }
 }
 .header .icon {
   position: relative;
@@ -254,6 +264,11 @@ input::-webkit-inner-spin-button {
   padding-left: 2px;
   padding-right: 5px;
 }
+@media screen and (max-width: 768px) {
+  .header .phone {
+    display: none;
+  }
+}
 .header .button {
   display: inline-block;
   background: #121212;
@@ -274,28 +289,73 @@ input::-webkit-inner-spin-button {
   text-align: start;
   padding-top: 11px;
 }
+@media screen and (max-width: 768px) {
+  .header__top {
+    width: 688px;
+    height: 56px;
+  }
+}
 .header .book__button {
   border: 1px solid #828282;
   width: 178px;
   height: 40px;
   margin-left: 15px;
 }
+@media screen and (max-width: 768px) {
+  .header .book__button {
+    display: none;
+  }
+}
+.header .book__button-midle {
+  border: 1px solid #828282;
+  width: 178px;
+  height: 40px;
+  margin-left: 15px;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header .book__button-midle {
+    display: block;
+    width: 128px;
+    height: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .feedback__button {
+    display: none;
+  }
+}
 .header__selects {
   width: 12%;
   display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .header__selects {
+    width: 9%;
+  }
 }
 .header__selects .select {
   display: inline-block;
   padding-right: 4px;
 }
 .header__contacts {
-  width: 55%;
+  width: 54.5%;
   display: inline-block;
   padding-left: 2px;
+}
+@media screen and (max-width: 768px) {
+  .header__contacts {
+    width: 69%;
+  }
 }
 .header__feedback {
   width: 32%;
   display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .header__feedback {
+    width: 1%;
+  }
 }
 .header__header {
   font-family: "Merriweather", serif;
@@ -307,6 +367,12 @@ input::-webkit-inner-spin-button {
   line-height: 52px;
   color: #f2f2f2;
 }
+@media screen and (max-width: 768px) {
+  .header__header {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
 .header .header__background-line {
   width: 504px;
   height: 2px;
@@ -317,11 +383,22 @@ input::-webkit-inner-spin-button {
 .header__menu {
   padding-bottom: 32px;
 }
+@media screen and (max-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+}
 .header .menu__button {
   font-size: 14px;
   line-height: 20px;
   padding-left: 0;
   padding-right: 32px;
+}
+@media screen and (max-width: 768px) {
+  .header .menu__button {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 
 .about {
@@ -337,6 +414,12 @@ input::-webkit-inner-spin-button {
   position: relative;
   top: -24px;
 }
+@media screen and (max-width: 768px) {
+  .about__image {
+    width: 688px;
+    height: 324px;
+  }
+}
 .about__description {
   display: inline-block;
   text-align: center;
@@ -347,9 +430,22 @@ input::-webkit-inner-spin-button {
   color: #4F4F4F;
   margin: 2px;
 }
+@media screen and (max-width: 768px) {
+  .about__description {
+    width: 594px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 
 .halls {
   padding: 0 0 50px 96px;
+}
+@media screen and (max-width: 768px) {
+  .halls {
+    padding: 0 0 50px 40px;
+  }
 }
 .halls__heading {
   position: relative;
@@ -363,6 +459,12 @@ input::-webkit-inner-spin-button {
   line-height: 52px;
   color: #121212;
 }
+@media screen and (max-width: 768px) {
+  .halls__heading .section__heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
 .halls__items {
   margin-top: 43px;
   width: 100%;
@@ -370,6 +472,11 @@ input::-webkit-inner-spin-button {
 }
 .halls__item {
   width: 33%;
+}
+@media screen and (max-width: 768px) {
+  .halls__item {
+    width: auto;
+  }
 }
 .halls__show-button {
   border: 1px solid #E0E0E0;
@@ -381,6 +488,11 @@ input::-webkit-inner-spin-button {
   position: absolute;
   top: 59%;
   right: 8.5%;
+}
+@media screen and (max-width: 768px) {
+  .halls__show-button {
+    right: 5%;
+  }
 }
 .halls__item {
   display: inline-block;

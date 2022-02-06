@@ -6,6 +6,10 @@
   text-align: center;
   height: 239px;
 
+  @media screen and (max-width: "768px") {
+    height: 162px;
+  }
+
   .icon {
     position: relative;
     width: 16px;
@@ -39,6 +43,9 @@
     line-height: 16px;
     padding-left: 2px;
     padding-right: 5px;
+    @media screen and (max-width: "768px") {
+      display: none;
+    }
   }
 
   .button {
@@ -62,17 +69,50 @@
     margin: 0 auto;
     text-align: start;
     padding-top: 11px;
+
+    @media screen and (max-width: "768px") {
+      width: 688px;
+      height: 56px;
+
+    }
   }
   .book__button {
     border: 1px solid #828282;
     width: 178px;
     height: 40px;
     margin-left: 15px;
+
+    @media screen and (max-width: "768px") {
+      display: none;
+    }
+  }
+  .book__button-midle {
+    border: 1px solid #828282;
+    width: 178px;
+    height: 40px;
+    margin-left: 15px;
+    display: none;
+
+    @media screen and (max-width: "768px") {
+      display: block;
+      width: 128px;
+      height: 32px;
+    }
+  }
+
+  .feedback__button {
+    @media screen and (max-width: "768px") {
+      display: none;
+    }
   }
 
   &__selects {
     width: 12%;
     display: inline-block;
+
+    @media screen and (max-width: "768px") {
+      width: 9%;
+    }
 
     .select {
       display: inline-block;
@@ -81,15 +121,21 @@
   }
 
   &__contacts {
-    width: 55%;
+    width: 54.5%;
     display: inline-block;
     padding-left: 2px;
+
+    @media screen and (max-width: "768px") {
+      width: 69%;
+    }
   }
   
   &__feedback {
     width: 32%;
-
     display: inline-block;
+    @media screen and (max-width: "768px") {
+      width: 1%;
+    }
   }
 
   &__header {
@@ -101,6 +147,11 @@
     font-size: 40px;
     line-height: 52px;
     color: #f2f2f2;
+
+    @media screen and (max-width: "768px") {
+      font-size: 32px;
+      line-height: 42px;
+    }
   }
   .header__background-line {
     width: 504px;
@@ -112,6 +163,9 @@
 
   &__menu {
     padding-bottom: 32px;
+    @media screen and (max-width: "768px") {
+      display: none;
+    }
   }
 
   .menu__button {
@@ -119,5 +173,10 @@
     line-height: 20px;
     padding-left: 0;
     padding-right: 32px;
+
+    @media screen and (max-width: "768px") {
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
 }
